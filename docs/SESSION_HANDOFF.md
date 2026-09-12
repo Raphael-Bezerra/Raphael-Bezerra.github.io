@@ -37,6 +37,15 @@
 - Seção de projetos do README alinhada aos quatro cards completos da landing
   page: Sorteador de Números, AluGames, Carrinho de Compras e e-Ticket.
 - Links de demo e código dos cards e do arquivo validados com resposta HTTP 200.
+- Projeto Amigo Secreto publicado em `Raphael-Bezerra/amigo-secreto`, com
+  GitHub Pages validado em 360 px, 768 px e 1440 px.
+- Card do Amigo Secreto adicionado como mini projeto 04, com ilustração vetorial
+  de participantes em ciclo ao redor de um presente e badges de HTML, CSS e
+  JavaScript.
+- Sorteador de Números movido para o arquivo expansível de mini projetos,
+  preservando os links de demo e código.
+- README do portfólio alinhado aos quatro cards completos atuais: AluGames,
+  Carrinho de Compras, e-Ticket e Amigo Secreto.
 
 ## Branch atual
 
@@ -44,7 +53,7 @@
 
 ## Último commit de implementação
 
-- `a5029e3` — Add e-Ticket to portfolio
+- `Add Amigo Secreto to portfolio` — commit desta atualização.
 
 ## Arquivos alterados
 
@@ -53,6 +62,7 @@
 - `script.js`
 - `README.md`
 - `assets/images/project-ticket.svg`
+- `assets/images/project-secret-friend.svg`
 - `docs/SESSION_HANDOFF.md`
 
 ## Decisoes
@@ -61,6 +71,8 @@
 - O portfolio sera desenvolvido inicialmente com HTML, CSS e JavaScript puro.
 - A landing page mantém somente os quatro mini projetos mais recentes como
   cards completos; projetos anteriores ficam em uma área expansível acessível.
+- A ilustração do Amigo Secreto representa participantes conectados em ciclo ao
+  redor de um presente, com baixa opacidade e o mesmo traço técnico dos cards.
 
 ## Pendencias
 
@@ -70,5 +82,5 @@
 ## Próximo passo exato
 
 - Ao publicar o próximo mini projeto, adicioná-lo como card mais recente e mover
-  o Sorteador de Números para o arquivo expansível, preservando a ordem cronológica.
+  o AluGames para o arquivo expansível, preservando a ordem cronológica.
 
