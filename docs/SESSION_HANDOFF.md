@@ -46,6 +46,21 @@
   preservando os links de demo e código.
 - README do portfólio alinhado aos quatro cards completos atuais: AluGames,
   Carrinho de Compras, e-Ticket e Amigo Secreto.
+- Projeto Lista de Compras publicado em `Raphael-Bezerra/lista-de-compras`
+  (branch `main`), com GitHub Pages validado.
+- Bug real corrigido no projeto Lista de Compras antes da publicação: caractere
+  solto no CSS quebrava o seletor `ul` (bullets visíveis indevidamente); largura
+  fixa de 440px no `main` e do input causava potencial rolagem horizontal em
+  telas pequenas — ambos corrigidos com `max-width` fluido e media query.
+- Card do Lista de Compras adicionado como mini projeto 04, com ilustração
+  vetorial local de lista/checklist; AluGames movido para o arquivo expansível
+  (ARQ/03), preservando os links de demo e código.
+- Ilustrações de fundo dos cards remapeadas para a nova ordem (Carrinho de
+  Compras, e-Ticket, Amigo Secreto, Lista de Compras).
+- README do portfólio alinhado aos quatro cards completos atuais: Carrinho de
+  Compras, e-Ticket, Amigo Secreto e Lista de Compras.
+- Página local validada em 360px, 768px e 1440px: sem rolagem horizontal e sem
+  cards cortados.
 
 ## Branch atual
 
@@ -53,16 +68,14 @@
 
 ## Último commit de implementação
 
-- `Add Amigo Secreto to portfolio` — commit desta atualização.
+- Commit desta atualização (Lista de Compras adicionada ao portfólio).
 
 ## Arquivos alterados
 
 - `index.html`
 - `style.css`
-- `script.js`
 - `README.md`
-- `assets/images/project-ticket.svg`
-- `assets/images/project-secret-friend.svg`
+- `assets/images/project-shopping-list.svg`
 - `docs/SESSION_HANDOFF.md`
 
 ## Decisoes
@@ -71,8 +84,8 @@
 - O portfolio sera desenvolvido inicialmente com HTML, CSS e JavaScript puro.
 - A landing page mantém somente os quatro mini projetos mais recentes como
   cards completos; projetos anteriores ficam em uma área expansível acessível.
-- A ilustração do Amigo Secreto representa participantes conectados em ciclo ao
-  redor de um presente, com baixa opacidade e o mesmo traço técnico dos cards.
+- A ilustração da Lista de Compras representa um checklist/clipboard com itens
+  marcados, com baixa opacidade e o mesmo traço técnico dos demais cards.
 
 ## Pendencias
 
@@ -82,5 +95,6 @@
 ## Próximo passo exato
 
 - Ao publicar o próximo mini projeto, adicioná-lo como card mais recente e mover
-  o AluGames para o arquivo expansível, preservando a ordem cronológica.
+  a Carrinho de Compras para o arquivo expansível, preservando a ordem cronológica.
+
 
