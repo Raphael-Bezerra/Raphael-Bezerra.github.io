@@ -9,10 +9,12 @@ Desenvolvimento de Software · Engenharia de Software · Arquitetura · Automaç
 Este repositório contém minha landing page profissional, com minha jornada de estudos, tecnologias, projetos e pesquisas em Engenharia e Arquitetura de Software.
 
 Minha experiência combina desenvolvimento de soluções, automação de processos, análise de dados e plataformas SaaS.
-
-## Projetos
-
 - [CheckFlow](https://raphael-bezerra.github.io/#projetos) — case técnico público e sanitizado de uma solução privada.
+
+  
+## Mini Projetos de Estudos
+
+
 - [Carrinho de Compras](https://raphael-bezerra.github.io/carrinho-de-compras/) — carrinho com cálculo de subtotais, total e validação de quantidade.
 - [e-Ticket](https://raphael-bezerra.github.io/ingresso/) — simulador de compra de ingressos com controle de disponibilidade por setor.
 - [Amigo Secreto](https://raphael-bezerra.github.io/amigo-secreto/) — cadastro de participantes com validações e sorteio por embaralhamento aleatório.
