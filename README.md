@@ -9,14 +9,11 @@ Desenvolvimento de Software · Engenharia de Software · Arquitetura · Automaç
 Este repositório contém minha landing page profissional, com minha jornada de estudos, tecnologias, projetos e pesquisas em Engenharia e Arquitetura de Software.
 
 Minha experiência combina desenvolvimento de soluções, automação de processos, análise de dados e plataformas SaaS.
-
 ## Projeto em destaque
 
 ### CheckFlow
 
-Case técnico público e sanitizado de uma solução privada para digitalização, controle e rastreabilidade de fluxos operacionais.
-
-[Conhecer o case](https://raphael-bezerra.github.io/#projetos)
+Case técnico público e sanitizado de uma solução privada para digitalização, controle e rastreabilidade de fluxos operacionais ([CheckFlow](https://raphael-bezerra.github.io/#projetos)).
 
 ## Mini projetos de estudo
 
