@@ -9,6 +9,7 @@ Desenvolvimento de Software · Engenharia de Software · Arquitetura · Automaç
 Este repositório contém minha landing page profissional, com minha jornada de estudos, tecnologias, projetos e pesquisas em Engenharia e Arquitetura de Software.
 
 Minha experiência combina desenvolvimento de soluções, automação de processos, análise de dados e plataformas SaaS.
+
 ## Projeto em destaque
 
 ### CheckFlow
@@ -19,10 +20,10 @@ Case técnico público e sanitizado de uma solução privada para digitalizaçã
 
 Projetos desenvolvidos durante estudos e prática de programação. Cada um exercita um conjunto específico de conceitos.
 
-- [Carrinho de Compras](https://raphael-bezerra.github.io/carrinho-de-compras/) — DOM, eventos, validação, cálculos e manipulação de dados.
 - [e-Ticket](https://raphael-bezerra.github.io/ingresso/) — DOM, validação, controle de disponibilidade e atualização de estado.
 - [Amigo Secreto](https://raphael-bezerra.github.io/amigo-secreto/) — arrays, validações, aleatoriedade e embaralhamento.
 - [Lista de Compras](https://raphael-bezerra.github.io/lista-de-compras/) — DOM, eventos, estado de interface e manipulação de datas.
+- [Consulta de CEP](https://raphael-bezerra.github.io/js-consumindo-dados-api/) — consumo da API ViaCEP, validação de formulários e preenchimento de endereço.
 
 ## Arquivo de estudos
 
@@ -31,6 +32,7 @@ Projetos anteriores, preservados com demo e código disponíveis.
 - [Jogo do Número Secreto](https://raphael-bezerra.github.io/jogo-do-numero-secreto/)
 - [Sorteador de Números](https://raphael-bezerra.github.io/sorteador-de-numeros/)
 - [AluGames](https://raphael-bezerra.github.io/alugames/)
+- [Carrinho de Compras](https://raphael-bezerra.github.io/carrinho-de-compras/)
 
 ## Contato
 
