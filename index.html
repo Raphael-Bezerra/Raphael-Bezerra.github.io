@@ -17,7 +17,7 @@
 	<meta name="twitter:description" content="Portfólio profissional de Raphael Bezerra, com projetos de software, automação, dados e estudos de engenharia.">
 	<meta name="twitter:image" content="https://github.com/Raphael-Bezerra.png?size=320">
 	<title>Raphael Bezerra | Software, Engenharia e Arquitetura</title>
-	<link rel="stylesheet" href="style.css?v=v5-checkflow-20261008">
+	<link rel="stylesheet" href="style.css?v=v6-flow-diagram-20261008">
 </head>
 <body>
 	<header class="site-header">
@@ -120,17 +120,45 @@
 						<div class="project-tags project-tags--tech" aria-label="Tecnologias"><span>JavaScript</span><span>Google Apps Script</span><span>Google Sheets</span></div>
 						<a class="text-link" href="#contato">Conhecer o case <span aria-hidden="true">↗</span></a>
 					</div>
-					<div class="feature-diagram process-diagram" aria-hidden="true">
-						<div class="process-step step-received"><span class="process-index">01</span><span>Checklist recebido</span></div>
-						<div class="process-step step-validation"><span class="process-index">02</span><span>Validação</span></div>
-						<div class="process-outcome outcome-approved"><span>Conforme</span><b>→</b><span>Liberado</span></div>
-						<div class="process-outcome outcome-pending"><span>NC</span><b>→</b><span>Tratativa</span></div>
-						<div class="process-step step-record"><span class="process-index">03</span><span>Registro</span></div>
-						<svg class="diagram-lines">
-							<line class="diagram-line line-received"></line>
-							<line class="diagram-line line-validation"></line>
-							<line class="diagram-line line-approved"></line>
-							<line class="diagram-line line-pending"></line>
+					<div class="flow-diagram">
+						<svg viewBox="0 0 320 304" role="img" aria-labelledby="flow-title" xmlns="http://www.w3.org/2000/svg">
+							<title id="flow-title">Fluxo conceitual do CheckFlow: checklist digital, validação de regras, decisão entre conforme e não conforme, encaminhamento para aprovação ou tratativa e registro com histórico e rastreabilidade.</title>
+							<g class="fd-lines">
+								<path d="M160 48V70"/>
+								<path d="M160 110V128"/>
+								<path d="M98 152H78V196"/>
+								<path class="fd-nc" d="M222 152H242V196"/>
+								<path d="M78 236V262"/>
+								<path class="fd-nc" d="M242 236V262"/>
+							</g>
+							<g class="fd-joints">
+								<circle cx="160" cy="48" r="2"/><circle cx="160" cy="70" r="2"/>
+								<circle cx="160" cy="110" r="2"/><circle cx="160" cy="128" r="2"/>
+								<circle cx="78" cy="196" r="2"/><circle class="fd-nc" cx="242" cy="196" r="2"/>
+								<circle cx="78" cy="236" r="2"/><circle class="fd-nc" cx="242" cy="236" r="2"/>
+								<circle cx="78" cy="262" r="2"/><circle class="fd-nc" cx="242" cy="262" r="2"/>
+							</g>
+							<rect class="fd-node" x="85" y="8" width="150" height="40" rx="3"/>
+							<text class="fd-cap" x="97" y="24">01 · ENTRADA</text>
+							<text class="fd-label" x="97" y="40">Checklist digital</text>
+							<rect class="fd-node" x="70" y="70" width="180" height="40" rx="3"/>
+							<text class="fd-cap" x="82" y="86">02 · PROCESSAMENTO</text>
+							<text class="fd-label" x="82" y="102">Validação de regras</text>
+							<polygon class="fd-node fd-decision" points="160,128 222,152 160,176 98,152"/>
+							<text class="fd-cap fd-center" x="160" y="155">03 · CONFORME?</text>
+							<text class="fd-tag" x="84" y="182">SIM</text>
+							<text class="fd-tag fd-end" x="236" y="182">NÃO</text>
+							<rect class="fd-node" x="8" y="196" width="140" height="40" rx="3"/>
+							<circle class="fd-state" cx="21" cy="216" r="3.5"/>
+							<text class="fd-cap" x="31" y="212">04 · CONFORME</text>
+							<text class="fd-label" x="31" y="228">Aprovação</text>
+							<rect class="fd-node fd-node-nc" x="172" y="196" width="140" height="40" rx="3"/>
+							<circle class="fd-state fd-state-nc" cx="185" cy="216" r="3.5"/>
+							<text class="fd-cap" x="195" y="212">04 · NÃO CONFORME</text>
+							<text class="fd-label" x="195" y="228">Tratativa</text>
+							<rect class="fd-node fd-record" x="8" y="262" width="304" height="36" rx="3"/>
+							<text class="fd-cap" x="20" y="277">05 · CONTROLE</text>
+							<text class="fd-label" x="20" y="291">Registro · Histórico · Rastreabilidade</text>
 						</svg>
 					</div>
 				</article>
