@@ -12,5 +12,7 @@
     <rect x="18" y="48" width="6" height="6" rx="1"/>
     <path d="M19.5 51 21 52.5 23 49.5"/>
     <path d="M28 51h20"/>
+    <circle cx="45" cy="15" r="5"/>
+    <path d="M45 12v3l2.2 1.3"/>
   </g>
 </svg>

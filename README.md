@@ -10,13 +10,30 @@ Este repositório contém minha landing page profissional, com minha jornada de 
 
 Minha experiência combina desenvolvimento de soluções, automação de processos, análise de dados e plataformas SaaS.
 
-## Projetos
+## Projeto em destaque
 
-- [CheckFlow](https://raphael-bezerra.github.io/#projetos) — case técnico público e sanitizado de uma solução privada.
-- [Carrinho de Compras](https://raphael-bezerra.github.io/carrinho-de-compras/) — carrinho com cálculo de subtotais, total e validação de quantidade.
-- [e-Ticket](https://raphael-bezerra.github.io/ingresso/) — simulador de compra de ingressos com controle de disponibilidade por setor.
-- [Amigo Secreto](https://raphael-bezerra.github.io/amigo-secreto/) — cadastro de participantes com validações e sorteio por embaralhamento aleatório.
-- [Lista de Compras](https://raphael-bezerra.github.io/lista-de-compras/) — lista de compras dinâmica com registro de data e horário de cada item.
+### CheckFlow
+
+Case técnico público e sanitizado de uma solução privada para digitalização, controle e rastreabilidade de fluxos operacionais.
+
+[Conhecer o case](https://raphael-bezerra.github.io/#projetos)
+
+## Mini projetos de estudo
+
+Projetos desenvolvidos durante estudos e prática de programação. Cada um exercita um conjunto específico de conceitos.
+
+- [Carrinho de Compras](https://raphael-bezerra.github.io/carrinho-de-compras/) — DOM, eventos, validação, cálculos e manipulação de dados.
+- [e-Ticket](https://raphael-bezerra.github.io/ingresso/) — DOM, validação, controle de disponibilidade e atualização de estado.
+- [Amigo Secreto](https://raphael-bezerra.github.io/amigo-secreto/) — arrays, validações, aleatoriedade e embaralhamento.
+- [Lista de Compras](https://raphael-bezerra.github.io/lista-de-compras/) — DOM, eventos, estado de interface e manipulação de datas.
+
+## Arquivo de estudos
+
+Projetos anteriores, preservados com demo e código disponíveis.
+
+- [Jogo do Número Secreto](https://raphael-bezerra.github.io/jogo-do-numero-secreto/)
+- [Sorteador de Números](https://raphael-bezerra.github.io/sorteador-de-numeros/)
+- [AluGames](https://raphael-bezerra.github.io/alugames/)
 
 ## Contato
 

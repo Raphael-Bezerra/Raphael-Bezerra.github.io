@@ -62,11 +62,6 @@ window.addEventListener("scroll", () => {
 const diagrams = [...document.querySelectorAll(".feature-diagram")];
 
 function layoutDiagram(diagram) {
-	if (!diagram.classList.contains("process-diagram")) {
-		diagram.classList.add("process-diagram");
-		diagram.innerHTML = '<div class="process-step step-received"><span class="process-index">01</span><span>Checklist recebido</span></div><div class="process-step step-validation"><span class="process-index">02</span><span>Validação</span></div><div class="process-outcome outcome-approved"><span>Conforme</span><b>→</b><span>Liberado</span></div><div class="process-outcome outcome-pending"><span>NC</span><b>→</b><span>Tratativa</span></div><div class="process-step step-record"><span class="process-index">03</span><span>Registro</span></div><svg class="diagram-lines"><line class="diagram-line line-received"></line><line class="diagram-line line-validation"></line><line class="diagram-line line-approved"></line><line class="diagram-line line-pending"></line></svg>';
-	}
-
 	const svg = diagram.querySelector(".diagram-lines");
 	const received = diagram.querySelector(".step-received");
 	const validation = diagram.querySelector(".step-validation");
@@ -74,6 +69,7 @@ function layoutDiagram(diagram) {
 	const approved = diagram.querySelector(".outcome-approved");
 	const pending = diagram.querySelector(".outcome-pending");
 	if (!svg || !received || !validation || !record || !approved || !pending) return;
+
 
 	const container = diagram.getBoundingClientRect();
 	const toLocal = (node) => {
